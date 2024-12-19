@@ -1,0 +1,24 @@
+{
+  "name": "rewrite/labor-and-health-calculator",
+  "description": "勞保與健保的計算模組",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "james",
+      "email": "darkrewrite@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.2",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "LaborAndHealthCalculator\\": "src/"
+    }
+  }
+}
