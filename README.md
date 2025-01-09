@@ -1,12 +1,12 @@
-# Labor and Health Calculator
+# 勞保與健保計算套件
 
-A PHP library for calculating labor insurance and health insurance costs in Taiwan for different years.
+一個用於計算台灣各年份勞保與健保費用的 PHP 函式庫。
 
-## Installation
+## 安裝方式
 
-Run `composer install` to install dependencies.
+執行 `composer install` 安裝相關依賴套件。
 
-## Usage
+## 使用方式
 
 ```php
 require 'vendor/autoload.php';
